@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmlapplication.MenuRegistroControlador">
+   <top>
+      <AnchorPane prefHeight="573.0" prefWidth="697.0" style="-fx-background-color: FDF8F0;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutX="-4.0" layoutY="-1.0" prefHeight="97.0" prefWidth="733.0" style="-fx-border-color: #2E4053; -fx-border-width: 0px 0px 2px 0px; -fx-background-color: linear-gradient(to bottom left, #1F618D, #32E7E4);">
+               <children>
+                  <ImageView fitHeight="66.0" fitWidth="62.0" layoutX="193.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/money-cheque-editar.png" />
+                     </image>
+                  </ImageView>
+                  <Text fill="#eeeeee" layoutX="265.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-stroke: #2E4053; -fx-stroke-width: 2px;" text="Gestor de Gastos">
+                     <font>
+                        <Font name="System Bold Italic" size="39.0" />
+                     </font>
+                  </Text>
+                  <ImageView fitHeight="60.0" fitWidth="58.0" layoutX="195.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/money-cheque-editar%20(2).png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="28.0" layoutY="140.0" prefHeight="410.0" prefWidth="673.0" style="-fx-background-color: EEEEEE; -fx-border-color: #2E4053; -fx-border-width: 2px 2px 2px 2px;">
+               <children>
+                  <Button fx:id="register_button" layoutX="288.0" layoutY="360.0" mnemonicParsing="false" onAction="#regRCompletedButtonAction" prefHeight="33.0" prefWidth="125.0" style="-fx-background-color: #2471a3; -fx-background-radius: 50px;" text="Crear Cuenta" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Button>
+                  <Text fill="#2471a3" layoutX="267.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Regístrate">
+                     <font>
+                        <Font name="System Bold Italic" size="35.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#2e4053" layoutX="93.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nombre:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="register_name" layoutX="160.0" layoutY="160.0" prefHeight="28.0" prefWidth="127.0" style="-fx-border-color: #2471a3; -fx-border-width: 1px 1px 1px 1px;" />
+                  <Text fill="#2e4053" layoutX="95.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="register_surname" layoutX="160.0" layoutY="214.0" prefHeight="28.0" prefWidth="237.0" style="-fx-border-color: #2471a3; -fx-border-width: 1px 1px 1px 1px;" />
+                  <Text fill="#2e4053" layoutX="76.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#2e4053" layoutX="40.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Correo Electrónico:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="register_email" layoutX="161.0" layoutY="266.0" prefHeight="28.0" prefWidth="460.0" style="-fx-border-color: #2471a3; -fx-border-width: 1px 1px 1px 1px;" />
+                  <Text fill="#2e4053" layoutX="91.0" layoutY="232.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Apellidos:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <Text fill="#2e4053" layoutX="335.0" layoutY="333.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Repetir Contraseña:">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="register_nickname" layoutX="160.0" layoutY="104.0" prefHeight="28.0" prefWidth="127.0" style="-fx-border-color: #2471a3; -fx-border-width: 1px 1px 1px 1px;" />
+                  <Circle fx:id="profilePicViewer" fill="WHITE" layoutX="535.0" layoutY="140.0" radius="59.0" stroke="#2471a3" strokeType="INSIDE" strokeWidth="4.0" />
+                  <ImageView fx:id="profileImageView" fitHeight="127.0" fitWidth="93.0" layoutX="489.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button fx:id="selectImageButton" layoutX="449.0" layoutY="214.0" mnemonicParsing="false" onAction="#selectImageButtonAction" prefHeight="21.0" prefWidth="172.0" style="-fx-background-color: #2471a3; -fx-background-radius: 50px;" styleClass="btn" text="Subir Foto de Perfil" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                  </Button>
+                  <PasswordField fx:id="register_password" layoutX="160.0" layoutY="315.0" prefHeight="28.0" prefWidth="161.0" style="-fx-border-color: #2471a3; -fx-border-width: 1px 1px 1px 1px;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </PasswordField>
+                  <PasswordField fx:id="register_password_ch" layoutX="459.0" layoutY="314.0" prefHeight="28.0" prefWidth="161.0" style="-fx-border-color: #2471a3; -fx-border-width: 1px 1px 1px 1px;">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </PasswordField>
+                  <Label fx:id="inickname" layoutX="161.0" layoutY="131.0" text=" Nombre incorrecto" textFill="#ff1111" visible="false" />
+                  <Label fx:id="iemail" layoutX="160.0" layoutY="294.0" text="Correo incorrecto" textFill="#ff1111" visible="false" />
+                  <Label fx:id="ipassword" layoutX="164.0" layoutY="343.0" text="La contraseña debe tener 6 caracteres" textFill="#ff1111" visible="false" />
+                  <Label fx:id="ipassword_ch" layoutX="458.0" layoutY="343.0" text="Las contraseñas no coinciden" textFill="#ff1111" visible="false" />
+                  <Label fx:id="usedName_label" layoutX="159.0" layoutY="131.0" text="Nombre ya usado" textFill="RED" visible="false" />
+               </children>
+            </AnchorPane>
+            <Button layoutX="673.0" layoutY="104.0" mnemonicParsing="false" onAction="#exit" prefHeight="0.0" prefWidth="12.0" style="-fx-background-color: transparent;">
+               <font>
+                  <Font name="Berlin Sans FB Demi Bold" size="19.0" />
+               </font>
+               <graphic>
+              
+               </graphic>
+               <graphic>
+                  <ImageView fitHeight="16.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../imagenes/cruz.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="register_login" layoutX="28.0" layoutY="108.0" mnemonicParsing="false" onAction="#regLoginButtonAction" style="-fx-background-color: #2e4053; -fx-background-radius: 50;" text="Atrás" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>

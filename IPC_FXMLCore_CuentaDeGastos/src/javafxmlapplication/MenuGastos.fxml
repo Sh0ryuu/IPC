@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxmlapplication.MenuGastosControlador">
+   <top>
+      <AnchorPane prefHeight="573.0" prefWidth="697.0" style="-fx-background-color: FDF8F0;" BorderPane.alignment="CENTER">
+         <children>
+            <AnchorPane layoutY="-2.0" prefHeight="579.0" prefWidth="175.0" style="-fx-border-color: #2E4053; -fx-border-radius: 15; -fx-background-radius: 15; -fx-border-width: 2px 2px 2px 2px; -fx-background-color: linear-gradient(to bottom left, #1F618D, #32E7E4);">
+               <children>
+                  <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: TRANSPARENT;">
+                     <graphic>
+                        <ImageView fitHeight="31.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/menu-hamburguesa.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+                  <Circle fx:id="profilePicViewer" fill="WHITE" layoutX="88.0" layoutY="121.0" radius="59.0" stroke="#2e4053" strokeType="INSIDE" strokeWidth="4.0" />
+                  <ImageView fx:id="profileImageView" fitHeight="127.0" fitWidth="93.0" layoutX="42.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true" />
+                  <Button layoutX="9.0" layoutY="210.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="159.0" style="-fx-background-color: FDF8F0; -fx-background-radius: 50; -fx-border-color: #2E4053; -fx-border-radius: 50; -fx-border-width: 2px 2px 2px 2px;" text="Button" textAlignment="CENTER" textFill="#2e4053">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="8.0" layoutY="290.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="159.0" style="-fx-background-color: FDF8F0; -fx-background-radius: 50; -fx-border-color: #2E4053; -fx-border-radius: 50; -fx-border-width: 2px 2px 2px 2px;" text="Button" textAlignment="CENTER" textFill="#2e4053">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="9.0" layoutY="370.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="159.0" style="-fx-background-color: FDF8F0; -fx-background-radius: 50; -fx-border-color: #2E4053; -fx-border-radius: 50; -fx-border-width: 2px 2px 2px 2px;" text="Button" textAlignment="CENTER" textFill="#2e4053">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="8.0" layoutY="450.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="159.0" style="-fx-background-color: FDF8F0; -fx-background-radius: 50; -fx-border-color: #2E4053; -fx-border-radius: 50; -fx-border-width: 2px 2px 2px 2px;" text="Button" textAlignment="CENTER" textFill="#2e4053">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="65.0" layoutY="521.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="45.0" style="-fx-background-color: transparent;">
+                     <graphic>
+                        <ImageView fitHeight="34.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../imagenes/salida.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
