@@ -3,10 +3,15 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/galla/OneDrive/Escritorio/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/MenuGastosControlador.java</file>
-            <file>file:/C:/Users/galla/OneDrive/Escritorio/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/css/PgGastos.css</file>
-            <file>file:/C:/Users/galla/OneDrive/Escritorio/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/MenuRegistroControlador.java</file>
-            <file>file:/C:/Users/galla/OneDrive/Escritorio/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/JavaFXMLApplication.java</file>
+            <file>file:/D:/Descargas/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/MenuGastosDialogController.java</file>
+            <file>file:/D:/Descargas/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/MenuInicioSesionControlador.java</file>
+            <file>file:/D:/Descargas/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/MenuRegistro.fxml</file>
+            <file>file:/D:/Descargas/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/MenuGastosControlador.java</file>
+            <file>file:/D:/Descargas/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/MetaData.java</file>
+            <file>file:/D:/Descargas/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/AñadirGastos.fxml</file>
+            <file>file:/D:/Descargas/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/JavaFXMLApplication.java</file>
+            <file>file:/D:/Descargas/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/MenuGastos.fxml</file>
+            <file>file:/D:/Descargas/IPC-main/IPC_FXMLCore_CuentaDeGastos/src/javafxmlapplication/MenuRegistroControlador.java</file>
         </group>
     </open-files>
 </project-private>
